@@ -1,92 +1,130 @@
-# DDoS-Ripper
+# 💥 DDoS-Ripper (Deobfuscated Edition) 💥
 
-# What is a DDoS Attack?
-A Distributable Denied-of-Service (DDOS) attack server that cuts off targets or surrounding infrastructure in a flood of Internet traffic
+> ⚠️ **Disclaimer:** This project is provided for educational and research purposes only.  
+> 🧠 The authors are not responsible for any misuse or damage caused by this tool. Use at your own risk.
 
-DDoS attacks achieve effectiveness using multiple compromised computer systems as a source of attack traffic. Search engines may include computers and other network resources such as IoT devices.
-From a higher level, the DDOS attack is like an unexpected traffic jam stuck on a highway, preventing regular traffic from reaching its destination.
+---
 
-## NOTE (Please, make sure you have installed python 3 )
+## 📢 About This Project
 
-![dddd](https://user-images.githubusercontent.com/49250151/96265488-57e53d00-0f7a-11eb-8936-ce2e9a2c42cd.PNG)
+Welcome to the **Deobfuscated Edition of DDoS Ripper** — a cleaned-up and legible version of the original obfuscated script from [palahsu/DDoS-Ripper](https://github.com/palahsu/DDoS-Ripper).
 
-## For Termux
-To use the DRipper type the following commands in Termux:
+This project aims to improve understanding of how DDoS tools work internally by making the source code more readable for educational purposes.
 
-`pkg install git -y`
+### 🔍 Deobfuscation Status
 
-`pkg install python -y`
+| Version         | Status       | Notes                          |
+|-----------------|--------------|--------------------------------|
+| Original Script | ✅ Completed | Cleaned and readable           |
+| Pro Version     | 🛠 In Progress | Currently being deobfuscated |
+| Free Version    | 🛠 In Progress | Currently being deobfuscated |
 
-`pkg install python3 -y`
+### 🧠 Deobfuscation Credits
 
-`git clone https://github.com/palahsu/DDoS-Ripper.git`
+- 🔧 Deobfuscation by: **@kyrazzx**  
+- Original Author: **@palahsu**
 
-`cd DDoS-Ripper`
-`$ ls`
+---
 
-`$ python3 DRipper.py` 
+## ❓ What is a DDoS Attack?
 
-## USGAE
-`python3 DRipper.py -s [ip Address] -t 135`
+A **Distributed Denial-of-Service (DDoS)** attack floods a server or network with traffic to exhaust its resources and make it unavailable to legitimate users.
 
-`example: python3 DRipper.py -s 0.00.00.00 -t 135`
+Think of it like a traffic jam caused by thousands of fake cars blocking a highway, so real drivers can’t get through.
 
-## For Debian-based GNU/Linux distributions
-To use the application, type in the following commands in GNU/Linux terminal.
+---
 
-`sudo apt install git`
-`git clone https://github.com/palahsu/DDoS-Ripper.git`
-`cd DDoS-Ripper`
-`$ ls`
-`$ python3 DRipper.py` OR `python2 DRipper.py`
+## ⚙️ Requirements
 
-## For Windows
+✅ Python 3  
+✅ Git  
+✅ Internet connection  
+✅ Supported OS:
+- 🐧 Linux (Kali, Ubuntu, etc.)
+- 📱 Termux
+- 🪟 Windows
+- 🍏 macOS
 
-`git clone https://github.com/palahsu/DDoS-Ripper`
+---
 
-`cd DDoS-Ripper`
-` ls`
+## 🧪 Installation & Usage
 
-`python3 DRipper.py` OR `python DRipper.py`
+### 📱 Termux
 
-`python3 DRipper.py -s [ip Address] -t 135`
+```bash
+pkg install git -y
+pkg install python -y
+git clone https://github.com/palahsu/DDoS-Ripper.git
+cd DDoS-Ripper
+python3 DRipper.py
+```
 
-`example: python3 DRipper.py -s 0.00.00.00 -t 135`
+### 🐧 Linux (Debian-based)
 
-## For MacOS
+```bash
+sudo apt install git python3 -y
+git clone https://github.com/palahsu/DDoS-Ripper.git
+cd DDoS-Ripper
+python3 DRipper.py
+```
 
-Install Brew and Install dependencies (python 3)
+### 🪟 Windows
 
-# Note:
-If you find any problems than please write on issue github and to our Telegram Group. Don't use for revenge! Make sure your anonymity!
-It's made for just testing purpose.
-We are not responsible for any abuse or damage caused by this program. Only for Educational Purpose.
-Thanks.
- 
-## Requirments ▶
+```bash
+git clone https://github.com/palahsu/DDoS-Ripper
+cd DDoS-Ripper
+python3 DRipper.py
+```
 
-●🖥Linux OS( Kali 🐉 Ubuntu )
+### 🍏 macOS
 
-●📱Termux >
+1. Install [Homebrew](https://brew.sh/)
+2. Install Python:
+   ```bash
+   brew install python
+   ```
+3. Run the script as on Linux:
+   ```bash
+   git clone https://github.com/palahsu/DDoS-Ripper.git
+   cd DDoS-Ripper
+   python3 DRipper.py
+   ```
 
-●🖥Windows
+---
 
-●🖥MAC
+## 🎯 Example Usage
 
-# Modified by @palahsu
+```bash
+python3 DRipper.py -s <target_ip> -t 135
+```
 
-For any kind of help, support, payment, suggetion and request ask me on Telegram:
+📌 Replace `<target_ip>` with the actual IP address you want to test.
 
-<a href="https://t.me/CyberClans"><img src="https://img.shields.io/badge/Telegram-Group%20Telegram%20Join-blue.svg?logo=telegram"></a>
+---
 
-Or Facebook <a href="https://www.facebook.com/aduri.knox01/"><img src="https://img.shields.io/badge/Facebook-Follow%20on%20Facebook-blue.svg?logo=facebook"></a>
+## 📸 Screenshot
 
-## Follow on:
-<p align="left">
-<a href="https://github.com/palahsu"><img src="https://img.shields.io/badge/GitHub-Follow%20on%20GitHub-inactive.svg?logo=github"></a>
-</p><p align="left">
-<a href="https://www.facebook.com/aduri.knox01/"><img src="https://img.shields.io/badge/Facebook-Follow%20on%20Facebook-blue.svg?logo=facebook"></a>
-</p><p align="left">
-<a href="https://t.me/AD0000000"><img src="https://img.shields.io/badge/Telegram-Contact%20Telegram%20Profile-blue.svg?logo=telegram"></a>
-</p><p align="left"> 
- 
+![DRipper Screenshot](https://i.ibb.co/pj3Dcv6G/image.png)
+
+---
+
+## 💬 Need Help? (original links)
+
+For support, feedback, or discussion, join our Telegram group:
+
+[![Join Telegram](https://img.shields.io/badge/Telegram-Join%20Group-blue.svg?logo=telegram)](https://t.me/CyberClans)
+
+Or connect on Facebook:
+
+[![Follow on Facebook](https://img.shields.io/badge/Facebook-Follow%20on%20Facebook-blue.svg?logo=facebook)](https://www.facebook.com/aduri.knox01/)
+
+---
+
+## 🙌 Special Thanks
+
+- 💡 Original Project: [@palahsu](https://github.com/palahsu)
+- 🧩 Deobfuscation: **@kyrazzx**
+
+---
+
+⭐ Feel free to fork, star ⭐, and contribute!
